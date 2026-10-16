@@ -1,11 +1,11 @@
 # Open Source Contributions
 
-[![PRs merged](https://img.shields.io/badge/merged%20PRs-23-2ea44f?style=flat-square)](https://github.com/skyzhao1223/open-source-contributions)
-[![Repositories](https://img.shields.io/badge/repositories-13-blue?style=flat-square)](https://github.com/skyzhao1223/open-source-contributions)
+[![PRs merged](https://img.shields.io/badge/merged%20PRs-21-2ea44f?style=flat-square)](https://github.com/skyzhao1223/open-source-contributions)
+[![Repositories](https://img.shields.io/badge/repositories-12-blue?style=flat-square)](https://github.com/skyzhao1223/open-source-contributions)
 [![Lines](https://img.shields.io/badge/lines-%2B7.3k-informational?style=flat-square)](https://github.com/skyzhao1223/open-source-contributions)
 
 Merged contributions into repositories I don't own — mostly AI agent runtimes, developer tooling and frontend infrastructure.
-**23 merged PRs across 13 repositories** (2 projects above 200k stars, 5 above 30k), all reviewed and merged by their maintainers.
+**21 merged PRs across 12 repositories** (2 projects above 200k stars, 5 above 30k), all reviewed and merged by their maintainers.
 
 - 🔧 **Root-cause fixes** in [openclaw](https://github.com/openclaw/openclaw) (392k★), [DeepSeek-Reasonix](https://github.com/esengine/DeepSeek-Reasonix) (35.8k★) and [FastGPT](https://github.com/labring/FastGPT) (29.8k★) — each shipped with regression tests.
 - 🧪 **Built the test & CI foundation** for [video-shotcraft](https://github.com/Vincentwei1021/video-shotcraft) (12k★): Vitest unit tests, a smoke-render harness over all 57 demos, two new CI jobs.
@@ -36,22 +36,25 @@ Merged contributions into repositories I don't own — mostly AI agent runtimes,
 | [`xianyu-auto-reply`](https://github.com/zhinianboke/xianyu-auto-reply) | 7.6k★ | [#332](https://github.com/zhinianboke/xianyu-auto-reply/pull/332) | 2026-09-19 | +384/−1 | Shipped "auto-message the buyer after a positive review" across three rating paths, with per-order dedup, failure isolation, platform-block detection, timeout idempotency and DB migration. |
 | [`translated-content`](https://github.com/mdn/translated-content) | 2k★ | [#380](https://github.com/mdn/translated-content/pull/380) | 2021-04-14 | +1/−1 | zh-CN content fix in the JavaScript `void` operator page. |
 | [`zspace_skill`](https://github.com/coracoo/zspace_skill) | 28★ | [#6](https://github.com/coracoo/zspace_skill/pull/6) | 2026-08-06 | +765/−6 | Added the `media-naming` skill: read-only compliance scanning for media library naming, with write ops gated behind MCP confirmation. |
-| [`akeso.cn`](https://github.com/Akeso/akeso.cn) | — | [#10](https://github.com/Akeso/akeso.cn/pull/10) | 2016-07-13 | +115/−26 | Early org work (2016): product detail page layout height, chart component scaffolding. |
-| [`akeso.cn`](https://github.com/Akeso/akeso.cn) | — | [#14](https://github.com/Akeso/akeso.cn/pull/14) | 2016-07-21 | +216/−96 | Early org work (2016): React/CoffeeScript chart card component and stylesheet rewrite. |
 
 > Stars are snapshots at the time of writing. Diffs include generated lock files where applicable.
 
-## Also opened (awaiting review)
+<details>
+<summary><b>Also opened — 21 PRs awaiting maintainer review</b> (not counted above)</summary>
 
-| Repository | Stars | PRs | Theme |
-|---|---|---|---|
-| [coze-studio](https://github.com/coze-dev/coze-studio) | 21.7k★ | 16 | nil dereference, panic recovery, shared mutable state, SQL wildcards, float NaN, concurrent cache races |
-| [awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) | 96k★ | 3 | listing my MCP servers / CLI tools |
-| [AionUi](https://github.com/iOfficeAI/AionUi) · [AI-Scientist-v2](https://github.com/SakanaAI/AI-Scientist-v2) | 33.5k★ · 7.3k★ | 2 | chat text parsing fix; tolerate single-worker failures |
+Fixes and listings I opened that have not been merged yet. Listed for transparency; they are **not** part of the 21 merged PRs above.
+
+| Repository | PRs | Theme |
+|---|---|---|
+| [coze-studio](https://github.com/coze-dev/coze-studio) · 21.7k★ | 16 | nil dereference, panic recovery, shared mutable state, SQL wildcards, float NaN, concurrent cache races |
+| [awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) · 96k★ | 3 | listing my MCP servers / CLI tools |
+| [AionUi](https://github.com/iOfficeAI/AionUi) · 33.5k★ · [AI-Scientist-v2](https://github.com/SakanaAI/AI-Scientist-v2) · 7.3k★ | 2 | chat text parsing fix; tolerate single-worker failures |
+
+</details>
 
 ## 中文说明
 
-本仓库汇总我在**第三方开源项目**中已合并的 Pull Request（不含自建项目）。23 个已合并 PR 覆盖 13 个仓库，其中 2 个 20 万 star 级、5 个 3 万 star 以上；重点在 AI Agent 运行时、开发工具链与前端基础设施，全部经维护者 review 后合并。
+本仓库汇总我在**第三方开源项目**中已合并的 Pull Request（不含自建项目）。21 个已合并 PR 覆盖 12 个仓库，其中 2 个 20 万 star 级、5 个 3 万 star 以上；重点在 AI Agent 运行时、开发工具链与前端基础设施，全部经维护者 review 后合并。
 
 ## Maintenance
 
