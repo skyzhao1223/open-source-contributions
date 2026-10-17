@@ -1,11 +1,11 @@
 # Open Source Contributions
 
-[![PRs merged](https://img.shields.io/badge/merged%20PRs-23-2ea44f?style=flat-square)](https://github.com/skyzhao1223/open-source-contributions)
-[![Repositories](https://img.shields.io/badge/repositories-12-blue?style=flat-square)](https://github.com/skyzhao1223/open-source-contributions)
+[![PRs merged](https://img.shields.io/badge/merged%20PRs-24-2ea44f?style=flat-square)](https://github.com/skyzhao1223/open-source-contributions)
+[![Repositories](https://img.shields.io/badge/repositories-13-blue?style=flat-square)](https://github.com/skyzhao1223/open-source-contributions)
 [![Lines](https://img.shields.io/badge/lines-%2B7.3k-informational?style=flat-square)](https://github.com/skyzhao1223/open-source-contributions)
 
 Merged contributions into repositories I don't own — mostly AI agent runtimes, developer tooling and frontend infrastructure.
-**23 merged PRs across 12 repositories** (2 projects above 200k stars, 5 above 30k), all reviewed and merged by their maintainers.
+**24 merged PRs across 13 repositories** (2 projects above 200k stars, 6 above 30k), all reviewed and merged by their maintainers.
 
 - 🔧 **Root-cause fixes** in [openclaw](https://github.com/openclaw/openclaw) (392k★), [DeepSeek-Reasonix](https://github.com/esengine/DeepSeek-Reasonix) (35.8k★) and [FastGPT](https://github.com/labring/FastGPT) (29.8k★) — each shipped with regression tests.
 - 🧪 **Built the test & CI foundation** for [video-shotcraft](https://github.com/Vincentwei1021/video-shotcraft) (12k★): Vitest unit tests, a smoke-render harness over all 57 demos, two new CI jobs.
@@ -20,6 +20,7 @@ Merged contributions into repositories I don't own — mostly AI agent runtimes,
 | [`openclaw`](https://github.com/openclaw/openclaw) | 392k★ | [#172379](https://github.com/openclaw/openclaw/pull/172379) | 2026-10-15 | +107/−6 | Fixed a Windows credential-staging failure where a cleanup `EBUSY`/`EPERM` **masked the real provider setup result** (false failure) — cleanup now retries and degrades to a warning without replacing the outcome. 4 parameterized regression cases. |
 | [`opencode`](https://github.com/anomalyco/opencode) | 214k★ | [#42034](https://github.com/anomalyco/opencode/pull/42034) | 2026-08-12 | +3/−3 | Fixed provider config example and PAT doc typos. |
 | [`opencode`](https://github.com/anomalyco/opencode) | 214k★ | [#42048](https://github.com/anomalyco/opencode/pull/42048) | 2026-08-12 | +2/−2 | Replaced two 404 docs links (DigitalOcean Inference Routers, opencode-daytona) with verified URLs. |
+| [`design-resources-for-developers`](https://github.com/bradtraversy/design-resources-for-developers) | 67k★ | [#1801](https://github.com/bradtraversy/design-resources-for-developers/pull/1801) | 2026-10-16 | +1/−0 | Listed [Free for Creators](https://github.com/skyzhao1223/free-for-creators) in the Others section — unblocked by rebasing the branch onto current master. |
 | [`Codewhale`](https://github.com/codewhale-hq/Codewhale) | 41k★ | [#5257](https://github.com/codewhale-hq/Codewhale/pull/5257) | 2026-08-08 | +274/−2 | Added `model = "auto"`: a rule-based prompt-complexity classifier that routes between pro and flash tiers before the TUI starts. |
 | [`ant-design-pro`](https://github.com/ant-design/ant-design-pro) | 38.9k★ | [#11476](https://github.com/ant-design/ant-design-pro/pull/11476) | 2025-06-04 | +1/−1 | antd v5 deprecation migration — `destroyOnClose` → `destroyOnHidden`. |
 | [`DeepSeek-Reasonix`](https://github.com/esengine/DeepSeek-Reasonix) | 35.8k★ | [#7309](https://github.com/esengine/DeepSeek-Reasonix/pull/7309) | 2026-08-04 | +126/−1 | Fixed subagent metadata timestamps (`CreatedAt` recorded completion time) and made storage failures converge to `failed` instead of a stuck `running`. |
@@ -56,12 +57,12 @@ Fixes and listings I opened that have not been merged yet. Listed for transparen
 
 ## 中文说明
 
-本仓库汇总我在**第三方开源项目**中已合并的 Pull Request（不含自建项目）。23 个已合并 PR 覆盖 12 个仓库，其中 2 个 20 万 star 级、5 个 3 万 star 以上；重点在 AI Agent 运行时、开发工具链与前端基础设施，全部经维护者 review 后合并。
+本仓库汇总我在**第三方开源项目**中已合并的 Pull Request（不含自建项目）。24 个已合并 PR 覆盖 13 个仓库，其中 2 个 20 万 star 级、5 个 3 万 star 以上；重点在 AI Agent 运行时、开发工具链与前端基础设施，全部经维护者 review 后合并。
 
 ## Maintenance
 
 Curated manually; star counts are snapshots. Verified against the GitHub API
-(`author:skyzhao1223 type:pr is:merged`) and cross-checked per-repo via REST on 2026-10-16
+(`author:skyzhao1223 type:pr is:merged`) and cross-checked per-repo via REST on 2026-10-17
 (GitHub search occasionally omits recently merged PRs — e.g. the 6 video-shotcraft PRs — so counts are REST-verified).
 
 ## License
