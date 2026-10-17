@@ -57,7 +57,7 @@ Fixes and listings I opened that have not been merged yet. Listed for transparen
 
 ## 中文说明
 
-本仓库汇总我在**第三方开源项目**中已合并的 Pull Request（不含自建项目）。24 个已合并 PR 覆盖 13 个仓库，其中 2 个 20 万 star 级、5 个 3 万 star 以上；重点在 AI Agent 运行时、开发工具链与前端基础设施，全部经维护者 review 后合并。
+本仓库汇总我在**第三方开源项目**中已合并的 Pull Request（不含自建项目）。24 个已合并 PR 覆盖 13 个仓库，其中 2 个 20 万 star 级、6 个 3 万 star 以上；重点在 AI Agent 运行时、开发工具链与前端基础设施，全部经维护者 review 后合并。
 
 ## Maintenance
 
